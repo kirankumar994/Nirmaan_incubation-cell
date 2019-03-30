@@ -1,6 +1,5 @@
-Thanks for downloading this theme!
+Static Responsive Website
 
-Theme Name: Baker
-Theme URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
-Author: BootstrapMade.com
-Author URL: https://bootstrapmade.com
+#html, #css, #bootstrap 
+
+Submits all the html forms data directly into the google spreadsheets.
