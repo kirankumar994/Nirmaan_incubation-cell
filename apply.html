@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="images/favicon.png" rel="icon">
+  <title>Nirmaan</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600">
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="loader"></div>
+  <div id="myDiv">
+    <!--HEADER-->
+        <header id="main-header">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Techro HTML5 template"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right">
+                  <li class=""><a href="index.html">Home</a></li>
+                  <li class="active"><a href="apply.html">Apply</a></li>
+                  <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown"> Cohort <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="graduate.html"> 2017-2018 </a></li>
+                      <li><a href="incubate.html"> 2018-2019 </a></li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="partners.html">Partners</a></li>
+                  <li class=""><a href="gallery.html">Gallery</a></li>
+                  <li class=""><a href="about.html">About</a></li>
+                  <li class=""><a href="#contact"></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+    <!--/ HEADER-->
+    <!---->
+
+    <!-- COHORT-->
+    <section id="apply" class="section-padding wow fadeInUp delay-05s">
+        <div class="container">
+            <div class="col-md-12 text-center">
+              <h2 class="service-title pad-bt15">Join Nirmaan</h2>
+              <h3 class="pad-bt15">Intended for the budding student entrepreneurs seeking seed funding and mentoring.</h3>
+            </div>
+            <hr class="bottom-line">
+
+          <div class="row">
+            <div class="col-md-12 col-md-offset-2">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+
+
+              <form action="https://docs.google.com/forms/d/e/1FAIpQLSclt6aBhrNEFlPzAAxDpCe98PaE5L1rMEltqPHT3v_9JX2MkQ/formResponse" target="_blank" method="POST" class="contactForm">
+                <h3>Project Name</h3>
+                <div class="form-group">
+                  <input type="text" name="entry.1930186006" class="form-control" id="projectName" placeholder="Project Name" data-rule="required"
+                    data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <h3>Applicant's Name</h3>
+                <div class="form-group">
+                  <input type="text" name="entry.614021227" class="form-control" id="applicantName" placeholder="Applicant's Name" data-rule="required"
+                    data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <h3>Roll Number</h3>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="entry.1056797295" id="rollNumber" placeholder="Roll Number" data-rule="required"
+                    data-msg="Please enter a valid Roll Number" />
+                  <div class="validation"></div>
+                </div>
+                <h3>Email Id</h3>
+                <div class="form-group">
+                  <input type="email" class="form-control" name="entry.566610396" id="email" placeholder="Email Id" data-rule="email"
+                    data-msg="Please enter your email id" />
+                  <div class="validation"></div>
+                </div>
+                <h3>Contact Number</h3>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="entry.1145838293" id="contactnumber" placeholder="Contact Number" data-rule="required"
+                    data-msg="Please enter mobile number" />
+                  <div class="validation"></div>
+                </div>
+                <h3>Introduce your team - Names of team members, Course details and their roles</h3>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" name="entry.931602607" rows="2" id="team" placeholder="Introduce Team" data-rule="minlen:4"
+                    data-msg="Please enter your answer" ></textarea>
+                  <div class="validation"></div>
+                </div>
+                <h3>What problem are you trying to solve? Why is it important? What is the solution you are proposing and what is the stage of its development?</h3>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" name="entry.444613103" rows="8" id="problem" placeholder="Describe your problem" data-rule="required"
+                    data-msg="Please enter you answer" ></textarea>
+                  <div class="validation"></div>
+                </div>
+                <h3>Write a Brief layman description of your solution. {Highlight Innovation and Uniqueness}</h3>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" name="entry.721092608" rows="8" id="solution" placeholder="Explian your solution briefly" data-rule="required"
+                    data-msg="Please enter your answer" ></textarea>
+                  <div class="validation"></div>
+                </div> 
+                <h3>Is any background work done already?(Market Research, Competition Analysis and Risks)</h3>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" name="entry.293472207" rows="8" id="backwork" placeholder="Background Work" data-rule="required"
+                    data-msg="Please enter your answer" ></textarea>
+                  <div class="validation"></div>
+                </div> 
+                <h3>What resources (people, money, workspace facilities) do you need from Nirmaan ?</h3>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" name="entry.1532782096" rows="6" id="resource" placeholder="Need any Resources" data-rule="required"
+                    data-msg="Please enter your answer" ></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" id="submit-form" class="page-scroll btn btn-primary animated1">Submit</button></div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+ </div>
+ 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
+
+
+
+
+
